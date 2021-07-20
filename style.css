@@ -1,0 +1,28 @@
+#hello {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#aboutme {
+  height: auto;
+}
+.aboutmecontener {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.me {
+  background-color: aquamarine;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+}

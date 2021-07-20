@@ -6,7 +6,7 @@ const dislikes = document.getElementById("dislikes");
 const skill = document.getElementById("skill");
 
 about.onclick = function () {
-  alert.log("東京農工大学修士1年");
+  alert("東京農工大学修士1年");
 };
 charactor.onclick = function () {
   alert("まじめ");
