@@ -1,19 +1,31 @@
 #all {
-  width: 80%;
-  height: 80%;
+  height: 960px;
+  width: 1506px;
   margin-right: auto;
   margin-left: auto;
 }
 header {
   height: 50px;
+  display: flex;
+  flex-direction: row;
 }
 .header-title {
-  padding-top: 25px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.header-list {
+  margin-left: auto;
+  margin-right: 20px;
+  padding-top: 48px;
+  display: flex;
+}
+ul {
+  font-size: 20px;
   padding-left: 20px;
 }
 
 #hello {
-  height: 500px;
+  height: 600px;
   background-image: url(images/TOP.JPG);
   background-size: 100%;
 }
@@ -31,18 +43,35 @@ header {
   padding-top: 50px;
   padding-left: 60px;
 }
-#aboutme {
-  height: auto;
+.aboutme-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-align: center;
+  border-bottom: black;
 }
-#aboutmecontener {
+#aboutme {
+  height: 600px;
+}
+
+.aboutmecontener {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sakiko {
+  margin-right: auto;
+}
+.flex-me {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
 }
 .me {
-  background-color: aquamarine;
-  height: 120px;
-  width: 120px;
-  padding-top: 45px;
   margin: 20px;
   text-align: center;
+}
+
+#section3 {
+  height: 800px;
 }
