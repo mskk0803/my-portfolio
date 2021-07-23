@@ -2,6 +2,8 @@
 window.onload = function () {
   const body = document.getElementById("indexpage");
   body.animate([{ opacity: 0 }, { opacity: 1 }], 2000);
+  const linkBox = document.getElementById("link-box");
+  linkBox.style.visibility = "hidden";
 };
 // aboutme
 const myname = document.getElementById("myname");
@@ -44,8 +46,8 @@ skill.onmouseover = function () {
 
 link.onmouseover = function () {
   const linkBox = document.getElementById("link-box");
+  linkBox.style.visibility = "visible";
   linkBox.animate([{ opacity: 0 }, { opacity: 1 }], 1000);
-  linkBox.innerHTML = "<p>twitter</p><p>instagram</p>";
 };
 
 // gallrey
